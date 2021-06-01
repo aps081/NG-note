@@ -1,0 +1,27 @@
+.card {
+    
+    border: 1px solid #ced4da;
+    border-radius: 0.5em;
+    display: inline-flex;
+    width: 600px;
+    margin: 50px 400px;
+    box-shadow: 5px 5px 5px #a5a59b;
+    
+}
+
+button {
+    border: none;
+}
+
+.form-control {
+    border: none;
+}
+
+li{
+    list-style: none;
+    color: #495057;
+}
+
+input[type=checkbox]:checked + label.form-check-label{
+    text-decoration: line-through;
+}
